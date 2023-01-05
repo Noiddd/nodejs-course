@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noiddd/nodejs-course.git"
+  },
+  "author": "Dion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noiddd/nodejs-course/issues"
+  },
+  "homepage": "https://github.com/Noiddd/nodejs-course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
