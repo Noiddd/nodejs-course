@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nodejs-youtube",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
