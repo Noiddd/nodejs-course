@@ -8,7 +8,7 @@ const mongoConnect = (callback) => {
     "mongodb+srv://root:Dunnolah98@cluster0.wvqypuk.mongodb.net/shop?retryWrites=true&w=majority"
   )
     .then((client) => {
-      console.log("connected");
+      console.log("Connected!");
       _db = client.db();
       callback();
     })
@@ -26,4 +26,4 @@ const getDb = () => {
 };
 
 exports.mongoConnect = mongoConnect;
-exports.geDb = getDb;
+exports.getDb = getDb;
